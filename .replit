@@ -1,2 +1,0 @@
-# run = "deno run -qA https://code.velociraptor.run example"
-run = "deno run --config=./deno.json ./examples/meteorite/index.ts"
