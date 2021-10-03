@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/typescript",
+    "content-length": "1306",
+    "access-control-allow-origin": "*",
+    "date": "Sat, 02 Oct 2021 09:08:11 GMT",
+    "x-trace": "p52ogalIXG",
+    "access-control-allow-headers": "Content-Type",
+    "x-edge-origin-shield-skipped": "0",
+    "via": "1.1 083683fc4606b82cffcaa87e04058f56.cloudfront.net (CloudFront)",
+    "age": "68338",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0",
+    "access-control-allow-methods": "GET",
+    "x-amz-cf-id": "oYfX1Fe_05TUlJM2zXs4qO3zSOwzYmP890I_gXkIVZwEZ6Fk0D_sgA==",
+    "x-amz-cf-pop": "ORD51-C2",
+    "x-cache": "Hit from cloudfront"
+  },
+  "url": "https://pptkwtismwjswyniwwx3z7bu67wzsjknnmqs3zo5vmd4vr7fqswq.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/NestLand.ts"
+}

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "access-control-allow-methods": "GET,POST",
+    "date": "Sun, 03 Oct 2021 04:07:09 GMT",
+    "connection": "keep-alive",
+    "vary": "Accept",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "*",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "98",
+    "location": "https://arweave.net/QENC1OuTp8C8qLKA_t6eveErwp7IWEK5tAT2aqMmoGM/table/mod.ts",
+    "server": "nginx/1.14.0 (Ubuntu)"
+  },
+  "url": "https://x.nest.land/cliffy@0.19.1/table/mod.ts"
+}

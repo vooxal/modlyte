@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "x-edge-origin-shield-skipped": "0",
+    "x-amz-cf-id": "Ha45ObR-HW2Sog4PDsUTSz17Zcr8bRwCKfDB_ZcXgZ-BnYdbo2-kRw==",
+    "access-control-allow-origin": "*",
+    "age": "68338",
+    "x-trace": "Tfq_CCClIT",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-headers": "Content-Type",
+    "content-type": "application/typescript",
+    "content-length": "898",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 083683fc4606b82cffcaa87e04058f56.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "ORD51-C2",
+    "date": "Sat, 02 Oct 2021 09:08:11 GMT"
+  },
+  "url": "https://pptkwtismwjswyniwwx3z7bu67wzsjknnmqs3zo5vmd4vr7fqswq.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/Denopkg.ts"
+}

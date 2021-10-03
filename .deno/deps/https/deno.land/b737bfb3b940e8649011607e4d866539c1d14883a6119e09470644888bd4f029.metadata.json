@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "location": "/x/velociraptor@1.2.0/cli.ts",
+    "date": "Sun, 03 Oct 2021 04:07:07 GMT",
+    "content-length": "0",
+    "server": "deploy/us-central1-b",
+    "x-deno-warning": "Implicitly using latest version (1.2.0) for https://deno.land/x/velociraptor/cli.ts"
+  },
+  "url": "https://deno.land/x/velociraptor/cli.ts"
+}

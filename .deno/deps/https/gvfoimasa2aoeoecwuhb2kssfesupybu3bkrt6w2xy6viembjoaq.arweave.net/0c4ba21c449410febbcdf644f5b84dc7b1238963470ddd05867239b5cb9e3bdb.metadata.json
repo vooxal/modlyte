@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "etag": "NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E",
+    "x-amz-cf-pop": "MSP50-C2",
+    "x-cache": "Hit from cloudfront",
+    "content-length": "405",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET",
+    "content-type": "application/typescript",
+    "date": "Sat, 02 Oct 2021 09:08:12 GMT",
+    "x-edge-origin-shield-skipped": "0",
+    "via": "1.1 a135dbc42c7847731193b532a27d11ca.cloudfront.net (CloudFront)",
+    "x-trace": "jD-Xomazrq",
+    "x-amz-cf-id": "O1wL5xEpps-6nXdLevPjHr0mUzVvUjnyIq_kIvRWpie9R16T5CWEAA==",
+    "age": "68337",
+    "access-control-allow-headers": "Content-Type"
+  },
+  "url": "https://gvfoimasa2aoeoecwuhb2kssfesupybu3bkrt6w2xy6viembjoaq.arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/_util/assert.ts"
+}

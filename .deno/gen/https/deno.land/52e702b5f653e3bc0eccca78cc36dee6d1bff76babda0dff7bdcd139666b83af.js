@@ -1,0 +1,15 @@
+import { levenshtein } from "../deps.ts";
+export function didYouMean(wrongStr, strings) {
+  const suggestion = strings.reduce((closest, name, index) => {
+    const distance = levenshtein(wrongStr, name);
+    if (
+      distance < wrongStr.length &&
+      (closest == null || distance < closest.distance)
+    ) {
+      return { index, distance };
+    }
+    return closest;
+  }, null);
+  return suggestion ? strings[suggestion.index] : null;
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGlkX3lvdV9tZWFuLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiZGlkX3lvdV9tZWFuLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxXQUFXLEVBQUUsTUFBTSxZQUFZLENBQUM7QUFFekMsTUFBTSxVQUFVLFVBQVUsQ0FBQyxRQUFnQixFQUFFLE9BQWlCO0lBQzVELE1BQU0sVUFBVSxHQUFHLE9BQU8sQ0FBQyxNQUFNLENBQUMsQ0FBQyxPQUFZLEVBQUUsSUFBSSxFQUFFLEtBQUssRUFBRSxFQUFFO1FBQzlELE1BQU0sUUFBUSxHQUFHLFdBQVcsQ0FBQyxRQUFRLEVBQUUsSUFBSSxDQUFDLENBQUM7UUFDN0MsSUFDRSxRQUFRLEdBQUcsUUFBUSxDQUFDLE1BQU07WUFDMUIsQ0FBQyxPQUFPLElBQUksSUFBSSxJQUFJLFFBQVEsR0FBVSxPQUFRLENBQUMsUUFBUSxDQUFDLEVBQ3hEO1lBQ0EsT0FBTyxFQUFFLEtBQUssRUFBRSxRQUFRLEVBQUUsQ0FBQztTQUM1QjtRQUNELE9BQU8sT0FBTyxDQUFDO0lBQ2pCLENBQUMsRUFBRSxJQUFJLENBQUMsQ0FBQztJQUNULE9BQU8sVUFBVSxDQUFDLENBQUMsQ0FBQyxPQUFPLENBQUMsVUFBVSxDQUFDLEtBQUssQ0FBQyxDQUFDLENBQUMsQ0FBQyxJQUFJLENBQUM7QUFDdkQsQ0FBQyJ9

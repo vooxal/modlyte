@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "ghs",
+    "location": "https://deno.land/x/velociraptor/cli.ts",
+    "date": "Sun, 03 Oct 2021 04:07:07 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "236",
+    "x-xss-protection": "0",
+    "x-frame-options": "SAMEORIGIN"
+  },
+  "url": "https://code.velociraptor.run/"
+}

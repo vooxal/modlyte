@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "deploy/us-central1-b",
+    "x-amz-request-id": "YQNYF65ZQJHZE00A",
+    "last-modified": "Tue, 31 Aug 2021 08:27:40 GMT",
+    "access-control-allow-origin": "*",
+    "x-amz-version-id": "0zhpnbMnXFJVv5UJ.s.UYlsoSvkWSXFP",
+    "date": "Sun, 03 Oct 2021 04:07:09 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-type": "application/typescript; charset=utf-8",
+    "content-length": "520",
+    "etag": "\"8a50a49aecaab3971a612fed213f0db9\"",
+    "x-amz-id-2": "0bQy50NZLTAFy2C7RDyC/kJnMeSumsT4/ZZ6QU3hfp5syP0XCJtF6m63dnae5LxCqi9IRcy2TC8="
+  },
+  "url": "https://deno.land/x/velociraptor@1.2.0/src/update_notifier.ts"
+}

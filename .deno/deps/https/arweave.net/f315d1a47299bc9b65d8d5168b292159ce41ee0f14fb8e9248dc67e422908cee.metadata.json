@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "x-trace": "RjWpkTl6LFQ",
+    "content-length": "145",
+    "content-type": "text/plain; charset=utf-8",
+    "date": "Sun, 03 Oct 2021 04:07:08 GMT",
+    "vary": "Accept",
+    "location": "https://pptkwtismwjswyniwwx3z7bu67wzsjknnmqs3zo5vmd4vr7fqswq.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/mod.ts",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "Content-Type"
+  },
+  "url": "https://arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/mod.ts"
+}
