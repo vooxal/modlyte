@@ -1,1 +1,0 @@
-export PATH="/home/runner/.deno/bin:$PATH"
