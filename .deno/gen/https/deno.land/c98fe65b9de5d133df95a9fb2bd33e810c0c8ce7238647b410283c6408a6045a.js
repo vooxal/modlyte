@@ -1,2 +1,0 @@
-export const isParallel = (command) => "pll" in command;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tbWFuZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImNvbW1hbmQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWUEsTUFBTSxDQUFDLE1BQU0sVUFBVSxHQUFHLENBQUMsT0FBZSxFQUErQixFQUFFLENBQ3pFLEtBQUssSUFBSSxPQUFPLENBQUMifQ==
