@@ -1,0 +1,148 @@
+{
+  "Mod": {
+    "name": "Modlyte Example",
+    "author": "voxal",
+    "description": "Example of how to use modlyte",
+    "titleLeft": "Modlyte",
+    "titleRight": "Example",
+    "subtitleLeft": "Simpler",
+    "subtitleRight": "Modding",
+    "private": false
+  },
+  "Spells": {
+    "modeorite": {
+      "id": "modeorite",
+      "description": "Send a little meteorite towards your enemies! Meteorite will split in two if it collides with any other projectiles.",
+      "action": "projectile",
+      "color": "#ff0066",
+      "icon": "fragmentedMeteor",
+      "maxAngleDiffInRevs": 0.01,
+      "cooldown": 450,
+      "throttle": true,
+      "projectile": {
+        "density": 50,
+        "square": true,
+        "ccd": false,
+        "attractable": false,
+        "swappable": true,
+        "linkable": true,
+        "radius": 0.018,
+        "speed": 0.3,
+        "speedDecayPerTick": 0.2,
+        "restitution": 0,
+        "minTicks": 1,
+        "maxTicks": 120,
+        "hitInterval": 120,
+        "damage": 0,
+        "shieldTakesOwnership": false,
+        "categories": 6,
+        "collideWith": 65519,
+        "expireOn": 0,
+        "sound": "meteorite",
+        "color": "#ff0066",
+        "renderers": [
+          { "type": "bloom", "radius": 0.04 },
+          {
+            "type": "projectile",
+            "ticks": 12,
+            "shine": 0,
+            "smoke": 0.5,
+            "fade": "#333",
+            "shadow": 0.5
+          },
+          { "type": "strike", "ticks": 12, "flash": true, "growth": 0.1 }
+        ],
+        "behaviours": [
+          {
+            "type": "spawn",
+            "trigger": { "collideWith": 18 },
+            "projectile": {
+              "density": 50,
+              "square": true,
+              "ccd": false,
+              "attractable": false,
+              "swappable": true,
+              "linkable": true,
+              "radius": 0.009,
+              "speed": 0.3,
+              "speedDecayPerTick": 0.2,
+              "restitution": 0,
+              "minTicks": 1,
+              "maxTicks": 60,
+              "hitInterval": 120,
+              "damage": 0,
+              "shieldTakesOwnership": false,
+              "categories": 6,
+              "collideWith": 65519,
+              "expireOn": 0,
+              "sound": "submeteorite",
+              "color": "#ff0066",
+              "renderers": [
+                { "type": "bloom", "radius": 0.04 },
+                {
+                  "type": "projectile",
+                  "ticks": 12,
+                  "shine": 0,
+                  "smoke": 0.5,
+                  "fade": "#333",
+                  "shadow": 0.5
+                },
+                { "type": "strike", "ticks": 12, "flash": true, "growth": 0.1 }
+              ]
+            },
+            "numProjectiles": 2,
+            "spread": 0.04,
+            "expire": true
+          }
+        ]
+      }
+    }
+  },
+  "Choices": {
+    "Keys": [
+      { "btn": "a", "barSize": 0.75, "wheelSize": 0.5 },
+      null,
+      { "btn": "q", "barSize": 1, "wheelSize": 1 },
+      { "btn": "w", "barSize": 1, "wheelSize": 0.75 },
+      { "btn": "e", "barSize": 1, "wheelSize": 0.75 },
+      { "btn": "r", "barSize": 1, "wheelSize": 0.75 },
+      null,
+      { "btn": "f", "barSize": 0.75, "wheelSize": 0.5 }
+    ],
+    "Options": {
+      "a": [
+        ["thrust"],
+        ["teleport", "swap"],
+        ["voidRush", "vanish", "modeorite"]
+      ],
+      "q": [
+        ["fireball", "flamestrike"],
+        ["triplet", "difire"],
+        ["retractor", "backlash"],
+        ["whip", "phaseOrb"]
+      ],
+      "w": [
+        ["drain", "boost"],
+        ["homing", "boomerang"],
+        ["gravity", "whirlwind"],
+        ["link", "grapple"],
+        ["lightning"]
+      ],
+      "e": [
+        ["meteor", "meteorite"],
+        ["armor", "horcrux"],
+        ["shield", "icewall"],
+        ["saber", "dualSaber"],
+        ["phaseOut", "blaze"]
+      ],
+      "r": [
+        ["repeater", "bouncer"],
+        ["empower"],
+        ["supernova", "rocket"],
+        ["kamehameha", "blast"]
+      ],
+      "f": [["mines"], ["bump", "scourge"], ["firespray", "iceBomb"], ["halo"]]
+    },
+    "Special": { "move": "move", "retarget": "retarget", "s": "stop" }
+  }
+}

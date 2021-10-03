@@ -1,5 +1,10 @@
 import { Spells } from "./spells/mod.ts";
-import { buildModSettings } from "../../src/mod.ts"
+import {
+  buildModSettings,
+  defaultChoices,
+  addSpells,
+  saveToFile,
+} from "../../src/mod.ts";
 
 let Mod: AcolyteFightMod = {
   Mod: buildModSettings({
@@ -10,4 +15,9 @@ let Mod: AcolyteFightMod = {
     subtitle: ["Simpler", "Modding"],
   }),
   Spells,
+  Choices: {
+    ...defaultChoices,
+    Options: addSpells({ a: [, , ["modeorite"]] }),
+  },
 };
+saveToFile("modeorite.json", Mod);

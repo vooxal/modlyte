@@ -1,5 +1,4 @@
 {
-
   "compilerOptions": {
     "types": [
       "./types/acolytefight.d.ts"

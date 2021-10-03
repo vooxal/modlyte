@@ -322,10 +322,12 @@ declare interface ConveyorParameters {
 }
 
 declare interface ChoiceSettings {
-  Keys: KeyConfig[];
+  Keys: Key[];
   Options: KeyBindingOptions;
   Special: KeyBindings;
 }
+
+declare type Key = KeyConfig | null;
 
 declare interface KeyConfig {
   btn: string;

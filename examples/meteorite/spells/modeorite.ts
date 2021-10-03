@@ -26,7 +26,7 @@ const meteoriteProjectile: ProjectileTemplate = {
     {
       type: "projectile",
       ticks: 12,
-      light: null,
+      light: undefined,
       shine: 0,
       smoke: 0.5,
       fade: "#333",
@@ -35,8 +35,8 @@ const meteoriteProjectile: ProjectileTemplate = {
     { type: "strike", ticks: 12, flash: true, growth: 0.1 },
   ],
 };
-export const meteorite: Spell = {
-  id: "meteorite",
+export const modeorite: Spell = {
+  id: "modeorite",
   description:
     "Send a little meteorite towards your enemies! Meteorite will split in two if it collides with any other projectiles.",
   action: "projectile",

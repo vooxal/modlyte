@@ -1,5 +1,3 @@
-import { meteorite } from "./meteorite.ts";
+import { modeorite } from "./modeorite.ts";
 
-export let Spells: Spells = [
-  meteorite,
-];
+export let Spells: Spells = { modeorite };
