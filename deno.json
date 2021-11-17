@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "types": [
-      "./types/acolytefight.d.ts"
-    ]
+    "types": ["./types/acolytefight.d.ts"],
+    "paths": {
+      "./src/*": ["!/*"]
+    }
   }
 }
